@@ -42,6 +42,11 @@
             app:argType="integer"
             android:defaultValue="1"/>
 
+        <argument
+            android:name="flowStepObject"
+            app:argType="com.example.android.codelabs.navigation.SettingsFragment"
+            android:defaultValue="null"/>
+
         <action
             android:id="@+id/next_action"
             app:destination="@+id/flow_step_two_dest"
